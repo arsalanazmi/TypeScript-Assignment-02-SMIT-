@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./dist/app.js" defer></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>TypeScript Assignment#02</title>
+  </head>
+  <body>
+    <div class="app">
+      <h1>TypeScript Assignment#02</h1>
+      <h2>TypeScript class hierarchy to model a vehicle rental system:</h2>
+      <ol>
+        <li>
+          Start by creating an abstract class called Vehicle that will serve as
+          the base class for all types of vehicles in the rental system.
+        </li>
+        <li>
+          Define instance variables in the Vehicle class to store common
+          properties for all vehicles, such as make, model, year, and rented.
+        </li>
+        <li>
+          Create a constructor in the Vehicle class that takes in these
+          properties as parameters and initializes them.
+        </li>
+        <li>
+          Define accessor methods (getters) for the make, model, year, and
+          rented instance variables in the Vehicle class.
+        </li>
+        <li>
+          Define a mutator method (setter) for the rented instance variable in
+          the Vehicle class.
+        </li>
+        <li>
+          Define an abstract method called rentalRate in the Vehicle class that
+          will be implemented by each subclass to provide the rental rate for
+          that particular type of vehicle.
+        </li>
+        <li>
+          Define two methods in the Vehicle class: rent() and return(). The
+          rent() method should check if the vehicle is already rented and
+          provide a message to the user accordingly. If the vehicle is
+          available, it should set the rented instance variable to true. The
+          return() method should check if the vehicle has been rented and
+          provide a message to the user accordingly. If the vehicle has been
+          rented, it should set the rented instance variable to false.
+        </li>
+        <li>
+          Create subclasses of Vehicle for each type of vehicle in the rental
+          system (e.g. Car, Truck, Motorcycle). Each subclass should implement
+          the rentalRate method to provide the rental rate for that type of
+          vehicle.
+        </li>
+        <li>
+          Define additional instance variables and methods in the subclasses as
+          needed to model the specific characteristics of each type of vehicle.
+        </li>
+        <li>
+          In the main program, create instances of each type of vehicle and test
+          the rent() and return() methods to make sure they work as expected.
+        </li>
+      </ol>
+    </div>
+  </body>
+</html>
